@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("magical-batallions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+456581154ac1e8a2ca07b369c31e50b73da202fc")]
 [assembly: System.Reflection.AssemblyProductAttribute("magical-batallions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("magical-batallions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

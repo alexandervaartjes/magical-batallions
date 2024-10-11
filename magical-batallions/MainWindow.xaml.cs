@@ -18,6 +18,7 @@ namespace magical_batallions
     {
         public MainWindow()
         {
+            Console.WriteLine("Hello World");
             InitializeComponent();
         }
     }
