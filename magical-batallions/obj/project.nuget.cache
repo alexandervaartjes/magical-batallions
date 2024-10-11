@@ -1,8 +1,14 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "fOsvIvxl9IQ=",
   "success": true,
   "projectFilePath": "C:\\Users\\keesr\\Desktop\\Projects\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
+=======
+  "dgSpecHash": "uHKSsBWoNLI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Alexander\\source\\repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
+>>>>>>> ad82dc1b99f2707a05d8611937b7e4b2af323069
   "expectedPackageFiles": [],
   "logs": []
 }

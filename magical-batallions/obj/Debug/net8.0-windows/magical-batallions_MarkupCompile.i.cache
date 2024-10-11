@@ -4,17 +4,26 @@
 winexe
 C#
 .cs
+<<<<<<< HEAD
 C:\Users\keesr\Desktop\Projects\magical-batallions\magical-batallions\obj\Debug\net8.0-windows\
+=======
+C:\Users\Alexander\source\repos\magical-batallions\magical-batallions\obj\Debug\net8.0-windows\
+>>>>>>> ad82dc1b99f2707a05d8611937b7e4b2af323069
 magical_batallions
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
+<<<<<<< HEAD
 C:\Users\keesr\Desktop\Projects\magical-batallions\magical-batallions\App.xaml
 11407045341
+=======
+C:\Users\Alexander\source\repos\magical-batallions\magical-batallions\App.xaml
+2-149043613
+>>>>>>> ad82dc1b99f2707a05d8611937b7e4b2af323069
 
 62046711119
 198-556154604
-MainWindow.xaml;
+MainWindow.xaml;C:\Users\Alexander\Desktop\MainWindow backup.xaml;
 
 False
 
