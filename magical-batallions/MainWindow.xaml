@@ -41,5 +41,7 @@
                 VerticalAlignment="Top" HorizontalAlignment="Center" 
                 Click="creditsButton_Click" Margin="0,741,0,0" 
                 Background="LightCoral"/>
+        
+        //kak
     </Grid>
 </Window>
