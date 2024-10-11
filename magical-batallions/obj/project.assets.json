@@ -8,19 +8,19 @@
     "net8.0-windows7.0": []
   },
   "packageFolders": {
-    "C:\\Users\\symen\\.nuget\\packages\\": {}
+    "C:\\Users\\Alexander\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
+      "projectUniqueName": "C:\\Users\\Alexander\\source\\repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
       "projectName": "magical-batallions",
-      "projectPath": "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
-      "packagesPath": "C:\\Users\\symen\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\obj\\",
+      "projectPath": "C:\\Users\\Alexander\\source\\repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
+      "packagesPath": "C:\\Users\\Alexander\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Alexander\\source\\repos\\magical-batallions\\magical-batallions\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\symen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Alexander\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -69,7 +69,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
