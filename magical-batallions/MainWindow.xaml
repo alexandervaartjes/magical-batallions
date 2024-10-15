@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Magical Battalions" Height="900" Width="800">
 	<Grid>
-		<StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
+       <StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
 			<!-- Title -->
 			<TextBlock Text="Magical Battalions"
                        FontSize="48"

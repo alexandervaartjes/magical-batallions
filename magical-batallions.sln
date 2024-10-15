@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "magical-batallions", "magical-batallions\magical-batallions.csproj", "{B5D5C472-D72F-4495-A65A-D8AA778FA1DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "magical-batallions", "magical-batallions\magical-batallions.csproj", "{B5D5C472-D72F-4495-A65A-D8AA778FA1DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

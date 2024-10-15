@@ -8,6 +8,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using magical_batallions.Images;
 
 
 namespace magical_batallions
@@ -21,8 +22,9 @@ namespace magical_batallions
 
         private void startButton_Click(object sender, RoutedEventArgs e)
         {
-            // Logic for starting the game goes here
-            MessageBox.Show("Starting the game...");
+            start_menu gameWindow = new start_menu();
+            gameWindow.Show();
+            this.Close();
         }
 
         private void optionsButton_Click(object sender, RoutedEventArgs e)
