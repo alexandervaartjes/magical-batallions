@@ -5,17 +5,11 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:magical_batallions"
       mc:Ignorable="d" 
-      d:DesignHeight="900" d:DesignWidth="1000"
+      d:DesignHeight="900" d:DesignWidth="1000" Background="White"
       Title="Page1">
 
     <Grid>
         <StackPanel Orientation="Horizontal">
-            <Button x:Name="buyCard"
-                    Click="buyCard_Click"
-                    Width="150" Height="250"
-                    Content="Card Name"
-                    Background="#22AA77"
-                    Margin="50, 0, 50, 0"/>
             <Button x:Name="buyCard_Copy"
                 Click="buyCard_Click"
                 Width="150" Height="250"
@@ -34,6 +28,12 @@
                 Content="Card Name"
                 Background="#22AA77"
                 Margin="50, 0, 50, 0"/>
+            <Button x:Name="buyCard"
+                    Click="buyCard_Click"
+                    Width="150" Height="250"
+                    Content="Card Name"
+                    Background="#22AA77"
+                    Margin="50, 0, 50, 0"/>
         </StackPanel>
     </Grid>
 </Page>
