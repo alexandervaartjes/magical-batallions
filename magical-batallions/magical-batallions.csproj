@@ -21,7 +21,7 @@
 			<Generator>MSBuild:Compile</Generator>
 		</Page>
 		<Compile Include="**\*.cs" Exclude="obj\**\*.cs" />
-		<None Remove="Page1.xaml" />
+		<None Remove="Images\start menu.xaml" />
 		<Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
 	</ItemGroup>
 </Project>
