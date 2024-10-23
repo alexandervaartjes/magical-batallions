@@ -12,22 +12,16 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 
-namespace magical_batallions.Images
+namespace magical_batallions
 {
     /// <summary>
-    /// Interaction logic for start_menu.xaml
+    /// Interaction logic for Map.xaml
     /// </summary>
-    public partial class start_menu : Window
+    public partial class Map : Window
     {
-        public start_menu()
+        public Map()
         {
             InitializeComponent();
-        }
-        private void New_Game_Click(object sender, RoutedEventArgs e)
-        {
-            Map gameWindow = new();
-            gameWindow.Show();
-            this.Close();
         }
     }
 }

@@ -1,17 +1,12 @@
-﻿<Window x:Class="magical_batallions.Images.start_menu"
+﻿<Window x:Class="magical_batallions.Map"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:magical_batallions.Images"
+        xmlns:local="clr-namespace:magical_batallions"
         mc:Ignorable="d"
-        Title="start_menu" Height="450" Width="800">
+        Title="Map" Height="450" Width="800">
     <Grid>
-        <Button Margin="252,87,307,263"
-                Name ="New_Game"
-                Click="New_Game_Click"
-                Content="New Game">
-
-        </Button>
+        
     </Grid>
 </Window>

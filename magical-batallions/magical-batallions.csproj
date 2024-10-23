@@ -22,6 +22,7 @@
 		</Page>
 		<Compile Include="**\*.cs" Exclude="obj\**\*.cs" />
 		<None Remove="Images\start menu.xaml" />
+		<None Remove="Map.xaml" />
 		<Compile Update="**\*.xaml.cs" DependentUpon="%(Filename)" />
 	</ItemGroup>
 </Project>
