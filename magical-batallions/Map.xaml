@@ -6,7 +6,9 @@
         xmlns:local="clr-namespace:magical_batallions"
         mc:Ignorable="d"
         Title="Map" Height="450" Width="800">
-    <Grid>
+    <Grid Name="MapGrid" Background="Black">
         
     </Grid>
 </Window>
+
+
