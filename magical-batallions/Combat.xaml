@@ -1,0 +1,48 @@
+﻿<Window x:Class="WPFGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Game" Height="1080" Width="1920">
+    <Grid>
+
+        <!-- Background Rectangles -->
+        <Rectangle Fill="peru" Stroke="Black" StrokeThickness="4" VerticalAlignment="Bottom" Height="360" />
+        <Rectangle Fill="sandybrown" Stroke="Black" StrokeThickness="4" VerticalAlignment="Bottom" Height="360" Margin="686,0,0,0" HorizontalAlignment="Left" Width="1234" />
+        <Rectangle Fill="ForestGreen" VerticalAlignment="Bottom" Height="60" Margin="0,0,0,360" />
+        <Rectangle Fill="LightSalmon" VerticalAlignment="Bottom" Height="150" Margin="0,0,0,420" />
+        <Rectangle Fill="ForestGreen" VerticalAlignment="Bottom" Height="60" Margin="0,0,0,570" />
+        <Rectangle Fill="SkyBlue" VerticalAlignment="Top" Height="390" Margin="0,0,0,690" />
+        <Rectangle Fill="LightSkyBlue" VerticalAlignment="Top" Height="195" Margin="0,0,0,885" />
+        <Rectangle Fill="PowderBlue" VerticalAlignment="Top" Height="75" Margin="0,0,0,960" />
+
+        <!-- Player and Enemy Representation -->
+        <Rectangle x:Name="Player" Fill="Blue" Stroke="Black" StrokeThickness="4" Width="200" Height="200" HorizontalAlignment="Left" Margin="200,200,0,0" VerticalAlignment="Top"/>
+        <Rectangle x:Name="Enemy" Fill="Red" Stroke="Black" StrokeThickness="4" Width="200" Height="200" HorizontalAlignment="Right" Margin="0,200,200,0" VerticalAlignment="Top"/>
+
+        <!-- Player Health -->
+        <TextBlock x:Name="PlayerHealth" Text="Player HP: 20" HorizontalAlignment="Left" Margin="208,0,0,869" FontSize="32" Foreground="Blue" VerticalAlignment="Bottom"/>
+
+        <!-- Enemy Health -->
+        <TextBlock x:Name="EnemyHealth" Text="Enemy HP: 30" HorizontalAlignment="Right" Margin="0,0,206,869" FontSize="32" Foreground="Red" VerticalAlignment="Bottom"/>
+
+        <!-- Game Output -->
+        <TextBlock x:Name="GameLog" Text="Choose an action" HorizontalAlignment="Center" VerticalAlignment="Top" FontSize="32" Foreground="Black" Margin="0,20,0,0"/>
+
+        <!-- Action Buttons -->
+        <Button x:Name="AttackButton" Content="Attack" Click="AttackButton_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="225,0,0,273" FontSize="32" Width="150"/>
+        <Button x:Name="DefendButton" Content="Defend" Click="DefendButton_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="225,0,0,170" FontSize="32" Width="150"/>
+        <Button x:Name="ItemButton" Content="Item" Click="ItemButton_Click" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="225,0,0,77" FontSize="32" Width="150"/>
+
+        <!-- Attack Options (Initially Hidden and Horizontal Layout) -->
+        <StackPanel x:Name="AttackOptionsPanel" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="693,0,0,135" Width="1027" Height="114" Visibility="Collapsed">
+            <Button x:Name="FireButton" Content="Fire(3)" Width="175" Margin="15" Click="FireButton_Click" FontSize="30"/>
+            <Button x:Name="IceButton" Content="Ice(2)" Width="175" Margin="15" Click="IceButton_Click" FontSize="30"/>
+            <Button x:Name="LightningButton" Content="Lightning(4)" Width="175" Margin="15" Click="LightningButton_Click" FontSize="30"/>
+            <Button x:Name="BluntButton" Content="Blunt(1)" Width="175" Margin="15" Click="BluntButton_Click" FontSize="30"/>
+        </StackPanel>
+
+        <StackPanel x:Name="AttackOptionsCancel" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom" Margin="738,0,0,42" Width="1027" Height="114" Visibility="Collapsed">
+            <Button x:Name="EndButton" Content="end" Width="175" Margin="15" Click="EndButton_Click" FontSize="30"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

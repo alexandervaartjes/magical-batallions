@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace magical_batallions
+namespace Wpftest
 {
     /// <summary>
     /// Interaction logic for App.xaml
