@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj": {}
+    "C:\\Users\\xavie\\source\\repos\\Wpftest\\Wpftest\\Wpftest.csproj": {}
   },
   "projects": {
-    "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj": {
+    "C:\\Users\\xavie\\source\\repos\\Wpftest\\Wpftest\\Wpftest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
-        "projectName": "magical-batallions",
-        "projectPath": "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\magical-batallions.csproj",
-        "packagesPath": "C:\\Users\\symen\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\symen\\Source\\Repos\\magical-batallions\\magical-batallions\\obj\\",
+        "projectUniqueName": "C:\\Users\\xavie\\source\\repos\\Wpftest\\Wpftest\\Wpftest.csproj",
+        "projectName": "Wpftest",
+        "projectPath": "C:\\Users\\xavie\\source\\repos\\Wpftest\\Wpftest\\Wpftest.csproj",
+        "packagesPath": "C:\\Users\\xavie\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\xavie\\source\\repos\\Wpftest\\Wpftest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\symen\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\xavie\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

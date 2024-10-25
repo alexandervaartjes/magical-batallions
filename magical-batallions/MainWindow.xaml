@@ -5,8 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:magical_batallions"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Magical Battalions" Height="900" Width="800">
+	<Grid>
+		<StackPanel VerticalAlignment="Top" HorizontalAlignment="Center">
+			<!-- Title -->
+			<TextBlock Text="Magical Battalions"
+                       FontSize="48"
+                       FontWeight="Bold"
+                       Margin="0,40,0,40"
+                       HorizontalAlignment="Center"/>
 
-    </Grid>
+			<!-- Logo Placeholder -->
+			<Border Width="200" Height="200"
+                    Background="LightGray"
+                    Margin="0,0,0,40">
+				<TextBlock Text="Logo Placeholder"
+                           VerticalAlignment="Center"
+                           HorizontalAlignment="Center"/>
+			</Border>
+
+			<!-- Start Game Button -->
+			<Button Name="startButton"
+                    Content="Start Game"
+                    Width="508" Height="169"
+                    Click="startButton_Click"
+                    Background="LightBlue"
+                    Margin="0,0,0,20"/>
+
+			<!-- Options Button -->
+			<Button Name="optionsButton"
+                    Content="Options"
+                    Width="508" Height="135"
+                    Click="optionsButton_Click"
+                    Background="LightGreen"
+                    Margin="0,0,0,20"/>
+
+			<!-- Credits Button -->
+			<Button Name="creditsButton"
+                    Content="Credits"
+                    Width="508" Height="135"
+                    Click="creditsButton_Click"
+                    Background="LightCoral"
+                    Margin="0,0,0,20"/>
+		</StackPanel>
+	</Grid>
 </Window>
